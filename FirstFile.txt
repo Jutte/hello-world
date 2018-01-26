@@ -1,0 +1,25 @@
+//------------ Öppna Spara mm -------------------//
+C-x C-f		Öppna en fil
+C-x C-s 	Spara filen
+C-x s		Spara alla filer
+C-x C-w 	Spara filen som
+
+
+C-x C-c 	Stänga Emacs
+
+//------------ Kopiera och klistra in -------------------//
+C-k	       Ta bort hela raden. Lägg den i Clipboard
+C-y 	       Klistra in.
+C-space        Startar markerandet av rader
+M-w	       Kopiera markerade området
+C-w 	       Klipp ut markerade området
+C-g 	       Avslutar/avbryter ett kommando
+
+//------------ Använda pakaren -------------------//
+C-a	       Hoppa till början av raden
+C-e	       Hoppa till slutet av raden
+M->	       Hoppa till slutet av buffern
+M-<	       Hoppa till början av buffern
+
+C-/	       Undo
+C-g C-/        Redo
