@@ -23,3 +23,19 @@ M-<	       Hoppa till början av buffern
 
 C-/	       Undo
 C-g C-/        Redo
+
+//------------ Buffer management -------------------//
+C-x b 	       Byt buffer, frågar vilken buffer som ska öppnas
+C-x C-b        Byt buffer, visar alla buffrar i ett nytt fönster
+C-x o 	       Other window
+C-x 0	       Stäng fönster
+C-x 1 	       Stäng alla fönster bortsätt från det fönster vi är på (ett fönster)
+C-x 2	       Dela fönstret i två horizontellt
+C-x 3	       Dela fönstret i två vertikalt
+
+//------------ leta -------------------//
+C-s 	       Sök efter något. Hitta nästa träff via C-s
+C-g 	       Avsluta sökandet
+M-% 	       search and replace
+M-s o 	       Sök, men i occurance mod. Visar alla förekommster av det sökta ordet
+M-x grep       Hittar en pattern i filer och visar filerna och förekomsten i ett nytt fönster.
